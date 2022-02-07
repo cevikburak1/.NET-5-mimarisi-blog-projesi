@@ -1,0 +1,30 @@
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Entities.deps.json
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ref\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Entities.pdb
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Shared.dll
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.csproj.AssemblyReference.cache
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.AssemblyInfoInputs.cache
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.AssemblyInfo.cs
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.csproj.CopyComplete
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ref\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.net core\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.pdb
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Entities.deps.json
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ref\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Entities.pdb
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Shared.dll
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.csproj.AssemblyReference.cache
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.AssemblyInfoInputs.cache
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.AssemblyInfo.cs
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.csproj.CopyComplete
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ref\ProgrammersBlog.Entities.dll
+C:\Users\cevik\Desktop\.netcore\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.pdb

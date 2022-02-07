@@ -1,0 +1,102 @@
+﻿@model ProgrammersBlog.Entities.Dtos.ArticleListDto
+
+@{
+    ViewBag.Title = "Anasayfa";
+    Layout = "_Layout";
+
+}
+<div class="col-md-8">
+
+    <h1 class="my-4">
+        Son Eklenen Makaleler
+        @*<small>Secondary Text</small>*@
+    </h1>
+    <form>
+        <div class="form-row">
+            <input type="hidden" id="category-id" value="@(Model.CategoryId!=null?Model.CategoryId.Value:null)"/>
+          
+            <div class="form-group col col-md-6">
+                <select class="form-control" id="select-page-size">
+                    <option selected="@(Model.PageSize==5?"selected":null)" value="5">5</option>
+                    <option selected="@(Model.PageSize==10?"selected":null)" value="10">10</option>
+                    <option selected="@(Model.PageSize==20?"selected":null)" value="20">20</option>
+                </select>
+            </div>
+
+            <div class="form-group col col-md-6">
+                <select class="form-control" id="select-is-ascending">
+                    <option selected="@(Model.IsAscending==false?"selected":null)" value="false">En Yeni</option>
+                    <option selected="@(Model.IsAscending==true?"selected":null)" value="true">En Eski</option>
+                   
+                </select>
+            </div>
+        </div>
+    </form>
+
+    @foreach (var article in Model.Articles)
+    {
+        <!-- Blog Post -->
+                        <div class="card mb-4">
+                            <img class="card-img-top" src="~/img/@article.Thumbnail" alt="@article.Title">
+                            <div class="card-body">
+                                <h2 class="card-title">@article.Title</h2>
+                                <p class="card-text">
+                                   @Html.Raw(article.Content)
+                                    @(article.Content.Length > 150 ? article.Content.Substring(0, 150) : article.Content)
+                                </p>
+                                <a asp-controller="Article" asp-action="Detail" asp-route-articleıd="@article.ıd" class="btn btn-primary">Daha Fazlası &rarr;</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                              @article.User.UserName tarafından @article.Date tarihinde oluşturuldu
+                            </div>
+                        </div>
+    }
+
+
+
+    <!-- Pagination -->
+<ul class="pagination justify-content-center mb-4">
+    @{
+                    @for (var i = 1; i <= Model.TotalPages; i++)
+                    {
+    <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+        @if (Model.CategoryId != null)
+        {
+
+        <a class="page-link" asp-route-currentPage="@i" asp-route-categoryıd="@Model.CategoryId.Value" >@i</a>
+
+        }
+        else
+        {
+
+        <a class="page-link" asp-route-currentPage="@i">@i</a>
+        }
+    </li>  
+                    }
+        }
+
+</ul>
+
+</div>
+
+
+@section Scripts{ 
+<script>
+    $(document).ready(function () {
+        $(function () {
+            const selectPageSize = $('#select-page-size');
+            const selectisAscending = $('#select-is-ascending');
+            const categoryıd = $('#category-id').val();
+            const currentPage = $('#current-page').val();
+            const categoryQuery = categoryıd != null ? `&categoryıd=${categoryıd}` : null;
+
+            selectPageSize.on('change', function () {
+                window.location = `/?pageSize=${selectPageSize.val()}&isAscending=${selectisAscending.val()}${categoryQuery != null ? categoryQuery : null}`;
+            });
+            selectisAscending.on('change', function () {
+                window.location = `/?pageSize=${selectPageSize.val()}&isAscending=${selectisAscending.val()}${categoryQuery != null ? categoryQuery : null}`;
+            });
+        });
+    });
+</script>
+}
