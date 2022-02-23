@@ -1,6 +1,6 @@
  .NET 5 mimarisi üzerinde bir blog projesi geliştirerek yeni ve pratik bilgiler edindim. N Katmanlı Mimari ile Proje Geliştirmek
 Entity Framework Core 5.0 ile Code First Yaklaşımı .Fluent API ile detaylı veritabanı yapılandırması ,Kalıtım,Dto Kullanımı,SMTP işlemleri,Asenkron Programlama,Filtreleme
-gibi detaylar mevcut 
+gibi detaylar mevcut (VERİ TABANI PROJE İÇİNDE MEVCUTTUR PROGRAMMERSBLOG.BAK)
 
 
 ![unknown_2022 02 07-20 38](https://user-images.githubusercontent.com/70022524/152842478-f8733a5a-b5b8-440d-95df-d6e8b4e76721.png)
